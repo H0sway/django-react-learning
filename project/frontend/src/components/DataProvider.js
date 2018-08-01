@@ -15,7 +15,7 @@ class DataProvider extends Component {
     fetch(this.props.endpoint)
       .then(response => {
         if (response.status !== 200) {
-          return this.setState({placeholder = "Something went wrong, please try again later."});
+          return this.setState({placeholder: "Something went wrong, please try again later."});
         }
         return response.json
       })
