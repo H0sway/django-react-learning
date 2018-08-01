@@ -28,7 +28,11 @@ const Table = ({ data }) =>
       </table>
     </div>
   );
+
+
 Table.propTypes = {
   data: PropTypes.array.isRequired
 };
+
+// Export the component
 export default Table;

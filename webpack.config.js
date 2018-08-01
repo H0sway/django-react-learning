@@ -1,4 +1,4 @@
-module.exports = {
+const config = {
   module: {
     rules: [
       {
@@ -11,3 +11,5 @@ module.exports = {
     ]
   }
 };
+
+module.exports = config;
