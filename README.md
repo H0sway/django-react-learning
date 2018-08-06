@@ -9,16 +9,16 @@ I followed [this](https://www.valentinog.com/blog/tutorial-api-django-rest-react
 
 1. Render Views With React
 
- ⋅⋅⋅Just the basics. There's a lot of subtleties with React and Django that aren't covered by this tutorial. So far I've managed to render some basic views through React, but I'm looking to see how it works with more complicated things, like once I add in React Router.
+  Just the basics. There's a lot of subtleties with React and Django that aren't covered by this tutorial. So far I've managed to render some basic views through React, but I'm looking to see how it works with more complicated things, like once I add in React Router.
 
  2. Configure Django Admin
 
-⋅⋅⋅While you don't need to do anything special normally to have Django's admin show up, once you add in React it seems to break it. Currently I have admin access up and running and the basics configured. I'm currently planning on learning more about how to use Django's admin package.
+  While you don't need to do anything special normally to have Django's admin show up, once you add in React it seems to break it. Currently I have admin access up and running and the basics configured. I'm currently planning on learning more about how to use Django's admin package.
 
 3. Full CRUD Functionality
 
-⋅⋅⋅CRUD stands for Create, Read, Update, and Delete. Four basic activities users will generally want from an application. Right now basic users can only Create, but full CRUD is possible for Admins.
+  CRUD stands for Create, Read, Update, and Delete. Four basic activities users will generally want from an application. Right now basic users can only Create, but full CRUD is possible for Admins.
 
 4. Upload Pictures to the Database
 
-⋅⋅⋅Something I've wanted to learn how to do for a while, not just with Django. I want to learn how to allow users to upload and store photos that I can then render in the views the same way they can see their messages. A common feature on sites, but not something I've ever needed to learn how to use in past projects.
+  Something I've wanted to learn how to do for a while, not just with Django. I want to learn how to allow users to upload and store photos that I can then render in the views the same way they can see their messages. A common feature on sites, but not something I've ever needed to learn how to use in past projects.
