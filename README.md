@@ -3,7 +3,7 @@
 ## Introduction
 React is my favorite technology to use as a web developer. I love working through things like conditional rendering logic while building out projects using React. Additionally I like to see a visual representation of what I've built, which isn't as clear when working on the back-end for a project. Django is a popular Python server framework that many companies use for their sites. When I decided to teach myself Django I knew I wanted to learn how to use React for the views.
 
-I followed [this](https://www.valentinog.com/blog/tutorial-api-django-rest-react/) tutorial by Valentino Gagliardi before moving on to add new things myself. The app allows users to leave "messages" along with their names and email addresses. They can also view everyone's messages.
+I followed [this](https://www.valentinog.com/blog/tutorial-api-django-rest-react/) tutorial by Valentino Gagliardi before moving on to add new things myself. The app allows users to leave "messages" along with their names and email addresses. They can also view everyone's messages. One of the reasons why I chose this tutorial was that it used Webpack as a bundler rather than using Create-React-App to handle the React part of the project. I prefer using Webpack for full stack projects as I feel it keeps combining the front-end and the back-end more simple.
 
 ## Learning Topics
 
