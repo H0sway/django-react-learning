@@ -10,5 +10,9 @@ class LeadAdmin(admin.ModelAdmin):
         ('Email', {'fields': ['email']}),
         ('Message', {'fields': ['message']}),
     ]
+    list_display = ('name', 'created_at')
+    list_filter = ['created_at']
+    search_fields = ['name']
+
 
 admin.site.register(Lead, LeadAdmin)
