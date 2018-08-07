@@ -9,6 +9,7 @@ class LeadAdmin(admin.ModelAdmin):
         ('Name', {'fields': ['name']}),
         ('Email', {'fields': ['email']}),
         ('Message', {'fields': ['message']}),
+        ('Picture', {'fields': ['picture']})
     ]
     list_display = ('name', 'created_at')
     list_filter = ['created_at']
